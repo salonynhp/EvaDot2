@@ -14,25 +14,23 @@ JoinDate (DateTime): Represents the joining date of the employee.
 
 
 **1.Get all list of employee data.**
-Console.WriteLine("List of all employees:");
+`Console.WriteLine("List of all employees:");`
 
 **2.Get data of the employee who have the 2nd higest salary.**
-Console.WriteLine("Employee with the 2nd highest salary:");
+`Console.WriteLine("Employee with the 2nd highest salary:");`
 
-**3.Get the list of employee who joined in a range of date.**
+**3.Get the list of employee who joined in a range of date.** 
 (eg. 01 Jan 2024 - 31 Mar 2024)
-Console.WriteLine($"Employees joined between {startDate} and {endDate}");
+`Console.WriteLine($"Employees joined between {startDate} and {endDate}");`
 
 **4.Add a employee and print the whole list.**
-Console.WriteLine($"Add Name: ");
-Console.WriteLine($"Add Position: ");
-Console.WriteLine($"Add Salary: ");
-Console.WriteLine($"Add JoinDate: ");
+`Console.WriteLine($"Add Name: ");`
+`Console.WriteLine($"Add Position: ");`
+`Console.WriteLine($"Add Salary: ");`
+`Console.WriteLine($"Add JoinDate: ");`
 
-**5.Updates the position and salary of the employee who have the least**
-salary and print it.
-Console.WriteLine("Get Employee with lowest salary:");
+**5.Updates the position and salary of the employee who have the least salary and print it.**
+`Console.WriteLine("Get Employee with lowest salary:");`
 ---Code---
-Console.WriteLine("Employee with updated position and salary:");
-Note: Define a class for each,and call it in main() after each
-Console.WriteLine().
+`Console.WriteLine("Employee with updated position and salary:");`
+Note: Define a class for each,and call it in main() after each Console.WriteLine().
